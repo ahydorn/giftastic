@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var cars = ["Ferrari", "Lamborghini", "Lancer Evolution", "Supra", "BMW M4", "Subaru STI", "RWB Porsche", "Koenigsegg"];
+    let cars = ["Ferrari", "Lamborghini", "Lancer Evolution", "Supra", "BMW M4", "Subaru STI", "RWB Porsche", "Koenigsegg"];
 
     // Add buttons for original cars array
     function renderButtons() {
