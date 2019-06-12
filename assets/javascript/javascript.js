@@ -39,7 +39,7 @@ $(document).ready(function() {
             // Loop through results
             for (var i = 0; i < results.length; i++) {
                 var carDiv = $("<div>");
-                var p = $("<p>").text("Rating: " + results[i].rating);
+                var p = $("<p>").text("Rated " + results[i].rating);
                 var carImg = $("<img>");
                 // Give gifs the following attributes
                 carImg.attr("src", results[i].images.original_still.url);
