@@ -1,48 +1,58 @@
 #header {
-	background-color: #e50914;
-	color: #ffffff;
-	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 15px;
-	font-family: "Carrois Gothic SC", sans-serif;
+  background-color: #292929;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  border-bottom: 10px;
+}
+
+#title {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 70pt;
+}
+
+#body-bg {
+  background-color: paleturquoise;
 }
 
 #topImageL {
-	width: 15%;
-	float: left;
-	margin-left: 20px;
+  width: 15%;
+  float: left;
+  margin-left: 20px;
 }
 
 #topImageR {
-	width: 15%;
-	float: right;
-	margin-right: 20px;
+  width: 15%;
+  float: right;
+  margin-right: 20px;
 }
 
 label {
-	font-size: 18px;
+  font-size: 18px;
 }
 
 #show {
-	margin-right: 5px;
-	margin-left: 5px;
-	margin-top: 5px;
-	margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 #gifSearch {
-	margin: 0 auto;
-	text-align: center;
-	font-family: "Carrois Gothic SC", sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Carrois Gothic SC', sans-serif;
 }
 
 #gifArea {
-	clear: both;
-	display: inline;
-	flex-wrap: wrap;
+  clear: both;
+  display: inline;
+  flex-wrap: wrap;
 }
 
 .Giphy {
-	padding: 2px;
-	width: 80%;
+  padding: 2px;
+  width: 80%;
 }

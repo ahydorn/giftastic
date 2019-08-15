@@ -11,11 +11,15 @@
       integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
     <title>GifTastic | Adam Hydorn</title>
   </head>
-  <body>
+  <body id="body-bg">
     <div class="jumbotron" id="header">
-      <h1>GifTastic!</h1>
+      <h1 id="title">GifTastic!</h1>
       <h4>
         Click the buttons to display GIPHYs of your favorite things<br />Click
         the GIPHYs to pause and play<br />Use the search field to add more
@@ -26,7 +30,7 @@
     <form class="form-inline" id="gifSearch">
       <!--netflixSearch-->
       <div class="form-group">
-        <label for="gifInput">Search for a Gif</label>
+        <label for="gifInput">Search for a gif</label>
         <input type="text" id="gifInput" />
       </div>
       <!-- Button triggers show to be added -->
